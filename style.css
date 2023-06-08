@@ -1,0 +1,149 @@
+body, html {
+    height: 100%;
+    background-image: url("https://wallpaper.dog/large/10848518.jpg");
+    cursor: url('https://64.media.tumblr.com/ae0608e431ee563b3e203bd0860e8d7f/4d032ccc5a083037-3c/s1280x1920/544d5ef767aef959fcaae971c038a7313361b750.gifv'),auto;
+  }
+  
+ .stamps{
+    text-align: center;
+    padding-top: 2%;
+    z-index: 100;
+    margin-left: 150px;
+    margin-right: 65px;
+ } 
+
+.border{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(255, 237, 246);
+    background-color: rgba(255, 187, 208, 0.82);
+    text-align: center;
+    border-radius: 50px;
+    filter: drop-shadow(0px 2px 3px #d5567e);
+    z-index: 100;
+    margin-left: 150px;
+    margin-right: 65px;
+}
+
+.hearts{
+    padding-top: 15px;
+    margin-left: 250px;
+}
+
+.mask{
+    -webkit-mask-image: url("https://static.vecteezy.com/system/resources/thumbnails/011/888/128/small/heart-shadow-neumorphism-ui-button-free-png.png");
+    -webkit-mask-size: 38%;
+    -webkit-mask-repeat: no-repeat;
+    margin: 2%;
+    margin-left: 500px;
+} 
+
+.sidebar {
+    height: 100%;
+    width: 120px;
+    left: 0;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255, 188, 228, 0.626);
+    padding-left: 10px;
+    }
+
+    .sidebar-text{
+        padding: 2px;
+        margin: 5px;
+        position: relative;
+    }
+
+    .body-text {
+    margin-left: 150px;
+    font-size: 18px;
+    }
+
+    .stamp-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 150px;
+      }
+
+      .stamp-container img {
+        padding-top: 2%;
+      }
+
+      #shadowBox {
+        border: none;
+      }
+      
+      .notes {
+        text-align: center;
+        padding-left: 20px;
+        font-family: 'notes';
+        letter-spacing: 5px;
+        animation: colorRotate 2s linear 0s infinite;
+        padding-top:1%;
+        padding-bottom: 1%;
+        background-color: #ffd5e2dd;
+        filter: drop-shadow(0px 2px 2px #ff33ca);
+        border-radius: 50px;
+        width: 800px;
+        margin-left: 250px;
+      }
+      
+      @keyframes colorRotate {
+        from {
+          color: #ffa5c9;
+        }
+        10% {
+          color: #ff4dbb;
+        }
+        25% {
+          color: #ff0084;
+        }
+        50% {
+          color: #ff6262;
+        }
+        75% {
+          color: #a3227c;
+        }
+    
+        100% {
+            color: rgb(150, 61, 158);
+        }
+      }
+    .audio{
+      margin-left: 600px;
+      cursor: pointer;
+    }
+
+   
+    .content {
+      margin-top: 2%;
+      display: flex;
+      border: #fa16b6;
+        border-style: solid;
+        border-width: 2px;
+        width: 1000px;
+        margin-left: 180px;
+        background-color: rgb(255, 213, 242);
+    }
+    
+    .content img {
+      margin-right: 10px;
+      display: block;
+    }
+    #cute {
+      position: relative;
+    }
+    #cute span {
+      position: relative;
+      display: inline-block;
+      font-size: 40px;
+      text-transform: uppercase;
+      animation: flip 2.4s infinite;
+      animation-delay: calc(.2s * var(--i))
+    }
+    @keyframes flip {
+      0%,80% {
+        transform: rotateY(370deg) 
+      }
+    }
+

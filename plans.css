@@ -1,0 +1,53 @@
+body, html{
+    height: 100%;
+    background-image: url(https://64.media.tumblr.com/1207f89bd9b07b4cc3db2361d8dcdd09/2c819928a4971a99-47/s500x750/93cdab6bfa9199c8dc8bf91cc1f9605a5b127bbb.jpg);
+    cursor: url('https://64.media.tumblr.com/ee9ba9e77aba96bf7fe9a1df01f5a10c/8c73242acf3f6a75-7e/s75x75_c1/782f01bf406835341b69f795c69841346859cdfb.gifv'),auto;
+}
+
+.img1{
+    margin-left: 33%;
+    padding-top: 10px;
+}
+
+.content {
+    margin-top: 2%;
+    display: flex;
+    border: #ffcadf;
+      border-style: dotted;
+      border-width: 2px;
+      width: 600px;
+      margin-left: 10px;
+      background-color: rgba(255, 245, 246, 0.849);
+      border-radius: 40px;
+      height: 300px;
+      float: left;
+      filter: drop-shadow(2px 4px 2px #ff8dba);
+  }
+
+  .content img {
+    margin-right: 10px;
+    display: block;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #ffcadf;
+    border-radius: 40px;
+  }
+
+
+  .content h3,
+  .content p {margin: 0;} 
+
+  .box{
+    margin-left: 17px;
+    padding-top: 10px;
+  }
+
+  .box1 {
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+

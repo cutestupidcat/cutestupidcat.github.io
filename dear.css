@@ -1,0 +1,77 @@
+body, html{
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/b9/8b/dd/b98bdd3a9c7137c35bfcadfaaf0f9d82.jpg);
+    cursor: url('https://64.media.tumblr.com/811d5f8c0fc6d7ca8c4564c66259e6d5/37b66bdc4a9b4b18-1b/s1280x1920/9a2697f7ea2d87b3fc8173a62029158729d9d159.gifv'),auto;
+}
+
+.banner{
+    margin-left: 10px;
+}
+
+.lace{
+ margin-left: 20px;
+ margin-top: 2px;
+}
+
+.puppy{
+    margin-top: 1%;
+    text-align: center;
+}
+
+#kinkee{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.button1{
+    cursor: pointer;
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+#rabbit{
+    font-size: 20px;
+    color: deeppink;
+    text-decoration:underline;
+}
+
+.rabbit2{
+    font-family: 'rabbit';
+    color: deeppink;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+.scroll{
+    text-align: center;
+    margin-left: 210px
+}
+
+#haru{
+    width: 300px;
+    height: 280px;
+}
+
+#heart{
+    font-size: 18px;
+}
+
+
+
+.audio{
+    display: inline;
+}
+
+.button1, .button2, .button3{
+    display: inline-block;
+}
+
+.vider{
+    padding-top: 3%;
+}
+
+.us{
+    padding-top: 1%;
+    margin-bottom: 0.2%;
+}
